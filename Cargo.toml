@@ -1,5 +1,5 @@
 [package]
-name = "fastly-compute-project"
+name = "fiddle-057c3605"
 version = "0.1.0"
 edition = "2021"
 # Remove this line if you want to be able to publish this crate as open source on crates.io.
@@ -10,4 +10,5 @@ publish = false
 debug = 1
 
 [dependencies]
-fastly = "0.9.8"
+fastly = "^0.9.7"
+serde_json = "1.0.91"
