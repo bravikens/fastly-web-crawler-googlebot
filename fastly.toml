@@ -1,5 +1,12 @@
 authors = ["<oss@fastly.com>"]
-description = "An empty starter kit project template."
+description = ""
 language = "rust"
 manifest_version = 3
-name = "Empty starter for Rust"
+name = "Verify if a web crawler accessing your server really is Googlebot"
+
+[local_server.backends.origin_0]
+      url = "https://dns.google.com"
+
+[setup.backends.origin_0]
+address = "dns.google.com"
+port = 443
